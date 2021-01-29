@@ -1,11 +1,20 @@
 import numpy as np
 import random
 import cv2
+import os
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
-from keras.models import load_model
 
-model = load_model('model')
+from tensorflow.keras.models import load_model
+
+import build_model
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+if not os.path.isdir(dir_path + '\model'):
+    build_model.main(dir_path)
+    
+model = load_model(dir_path + '\model')
 
 @st.cache() 
 def get_nums():
