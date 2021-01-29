@@ -1,1 +1,1 @@
-web: streamlit run digit-distinguisher.py --server.port $PORT --browser.serverAddress https://digit-distinguisher.herokuapp.com
+web: streamlit run digit_distinguisher.py --server.port $PORT --browser.serverAddress https://digit-distinguisher.herokuapp.com
