@@ -1,4 +1,4 @@
 tensorflow
-opencv
+opencv-python
 streamlit
 streamlit-drawable-canvas
