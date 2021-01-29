@@ -1,0 +1,4 @@
+tensorflow
+opencv
+streamlit
+streamlit-drawable-canvas
