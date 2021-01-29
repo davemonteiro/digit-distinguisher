@@ -10,7 +10,6 @@ from tensorflow.keras.models import load_model
 import build_model
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-
 if not os.path.isdir(dir_path + '\model'):
     build_model.main(dir_path)
     
