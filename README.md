@@ -2,7 +2,7 @@
 
 A streamlit game/app where the player intentionally tries to confuse a simple CNN trained on MNIST data.
 
-For now, this was formerly online at http://digit-distinguisher.herokuapp.com/.
+This was formerly online at http://digit-distinguisher.herokuapp.com/.
 
 The game provides two digits, and the user tries to draw a figure (using streamlit-drawable-canvas) that the CNN believes confidently is one of them, but has trouble truly distinguishing.
 
